@@ -11,7 +11,7 @@ public class Marks {
             marks[i] = sc.nextInt();
         }
         for(int i=0; i<n; i++)
-            System.out.println(marks[i]);
+            System.out.println("Marks of student " + (i+1) + ": " + marks[i]);
         sc.close();
     }
 }
